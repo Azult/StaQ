@@ -1,0 +1,26 @@
+{
+  "name": "StaQ",
+  "version": "1.0",
+  "description": "Gets the best answer on stackoverflow",
+  "permissions": ["tabs", "storage"],
+  "background": {
+      "scripts": ["staQ.js"],
+      "persistent": false
+    },
+  "browser_action": {
+      "default_popup": "staQ.html",
+      "default_icon": {
+            "16": "images/icon-stackoverflow16.png",
+            "32": "images/icon-stackoverflow32.png",
+            "48": "images/icon-stackoverflow48.png",
+            "128": "images/icon-stackoverflow128.png"
+          }
+    },
+  "icons": {
+    "16": "images/icon-stackoverflow16.png",
+    "32": "images/icon-stackoverflow32.png",
+    "48": "images/icon-stackoverflow48.png",
+    "128": "images/icon-stackoverflow128.png"
+    },
+  "manifest_version": 2
+}
